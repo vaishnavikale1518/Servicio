@@ -1,0 +1,930 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+
+
+
+a{ text-decoration: none; }
+
+a:hover{text-decoration: none;}
+li{ list-style: none; }
+
+
+/* here i am using below just becz to make all p - paragraph of same sizing*/
+
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+font-weight: 400;
+color: #606060;
+
+}
+
+
+
+/*we r using below so that all h2 will follow the same dimantions and sizing*/ 
+
+
+
+.extra-div h2{
+
+font-size: 0.9rem;
+margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+
+}
+
+.header{
+
+width: 100%;
+ height: 100vh; 
+ background-image:
+linear-gradient(rgba(0,10,10,.03), rgba(0,300,255,0.4))
+,url("../images/d.jpg");
+ background-repeat: no-repeat; 
+ background-size: 100%
+100%; 
+ clip-path: polygon(100% 0%, 100% 77% , 50% 100% , 0% 75%, 0 0);
+position: relative; 
+} 
+.header:before{ content: ""; position: absolute; top:
+0%; bottom: 0%; left: 0; right: 0; opacity: .3%; z-index: -1;
+background:linear-gradient(to right , #1e5799 0%,#3ccdbb 0%, #16c9f6 100%); }
+
+
+.navbar : before{
+
+
+content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3%;
+	z-index: -1;
+	background:linear-gradient(to right , #1e5799 0%,#3ccdbb 0%, #16c9f6 100%);
+}
+
+ #dropdownPanel a.dropdown-item{
+    line-height: 1.25;
+    font-weight: normal;
+    letter-spacing:1px;
+    padding: 0.8rem;
+  }
+
+
+#dropdownPanel a.dropdown-item:hover{
+background: rgba(0,0,0,0.4);
+}
+
+.nav-item a{
+
+	color: #fff!important;
+	font-weight: bold;
+}
+
+
+
+
+.header-section{
+
+width: 100%;
+height: inherit;
+color: white;
+text-align: center;
+position: relative;
+/*top: 50%;*/
+
+
+}
+/*-------bootstrap overrides---------*/
+#bootstrap-overrides nav.bg-dark{
+  
+    background-color: dimgrey
+    background-repeat: no-repeat;
+}
+#bootstrap-overrides .header-section h1{
+  color: #fff;
+}
+#bootstrap-overrides .searcharea h1, h5{
+color: #2FA4E7;
+}
+#bootstrap-overrides .header-extradiv .message-text{
+  font-size: 0.7rem;
+}
+/* -------------search------------- */
+
+
+.search-header{
+
+width: 100%;
+ height: 100vh; 
+ background-image:
+linear-gradient(rgba(0,10,10,.03), rgba(0,300,255,0.4))
+,url("../images/d.jpg");
+ background-repeat: no-repeat; 
+ background-size: 100%
+100%; 
+  
+}
+
+.search-header-section{
+
+width: 100%;
+height: inherit;
+color: white;
+text-align: center;
+position: relative;
+
+}
+
+.search-header-section h1.search-head{
+  letter-spacing: 1px;
+  color: #fff;
+}
+.search-header-section .search-note{
+  font-size: 1..1rem;
+
+
+}
+
+
+/*-------bootstrap overrides end---------*/
+
+.center-div{
+width: 100%;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+
+
+
+}
+
+
+.header-buttons a{
+
+  border: 1px solid #2FA4E7;
+	border-radius: 100px;
+	margin: 0 10px;
+	padding: 12px 35px;
+	outline: none;
+	color: #2FA4E7;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+
+.header-buttons a:hover{
+color: #50d1c0;
+background: #fff;
+text-decoration: none;
+box-shadow: 0 0 20px 0 rgba(0,0,0,.4);
+
+}
+
+
+.center-div p{
+font-size: 1.3rem;
+padding: 10px 0 20px 0;
+color: gray;
+
+}
+
+
+
+/*************************three extra header div start card type desgin*********************/
+
+
+
+
+.header-extradiv{
+
+width: 100%; height: auto;
+
+margin: 100px 0;
+text-align: center; 
+
+}
+.extra-div{
+
+	background: #fff;
+	border: medium none;
+	padding: 50px important;
+	border-radius: 3px;
+	transition: 0.3s; 
+}
+
+.extra-div:hover{
+ background: rgb(232,221,85);
+background: linear-gradient(90deg, rgba(232,221,85,0.6253851882549895) 10%, rgba(237,233,192,0.7178221630449055) 50%, rgba(255,252,48,0.6449930313922444) 100%);;
+
+
+
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);  
+	transform: translateY(-20px);               /*i had use this to give 3d animation*/
+}
+
+/*************************three extra header div end*********************/
+
+
+/************extra happy clint start******/
+
+.happyclint{
+width: auto;
+height: auto;
+
+
+
+}
+
+
+
+
+.box1{
+text-align: center;
+border: 1px solid rgba(0,0,0,0.2)
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+border-radius: 20px;
+transition: 0.2s ease;
+background: linear-gradient(186deg, rgba(24,255,248,0.5329482134650736) 25%, rgba(161,250,244,0.8242647400757178) 50%, rgba(24,255,248,0.4937325271905637) 75%);
+ 
+
+}
+
+.box1:hover{
+background-color: silver opacity.3%;
+ transform:  translateY(-20px);                       /****use to give 3d effect**/
+ box-shadow: 0 0 30px 0 rgba(0,0,0,.3); 
+ border-radius: 20%;               /*this and above line*/
+}
+
+.box1:hover p{
+  color: red;
+}
+
+.box1:hover h1{
+  color: yellow;
+}
+.carousel-indicators1 {
+  position: absolute;
+  right: 0;
+  bottom: -60px ! important;
+   
+
+}
+
+.carousel-indicators1 li{
+  background-color:#16c9f6!important;
+}
+
+
+
+
+
+.box1 a{
+
+  position: relative;
+}
+.box1 a img{
+width: 150px;
+height: 150px;
+border-radius: 1000%;
+margin-top: 20px
+
+}
+
+
+.box1 a:after{
+  content: "\f10d";             /*this is logo of (") which i used is that profile picture*/
+  font-family: FontAwesome;    /*u cant change the name fontasome is becouse we used above symbol*/
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+position: absolute;
+top: 120%;
+left: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box1 h1{
+  font-size: 18px;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+  animation: text 1s 1;
+
+}
+
+.box1 h2{
+  font-size: 13px;
+  font-size: 40px;
+  color: #666666;
+  margin-bottom: 20px; 
+}
+
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+
+  }
+}
+
+
+/************extra happy clint end******/
+
+.happyclints{
+width: 100%;
+height: 100vh;
+
+
+}
+
+
+
+
+.box{
+text-align: center;
+border: 1px solid rgba(0,0,0,0.2)
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+border-radius: 2px;
+transition: 0.3s ease;
+background: linear-gradient(186deg, rgba(24,255,248,0.5329482134650736) 25%, rgba(161,250,244,0.8242647400757178) 50%, rgba(24,255,248,0.4937325271905637) 75%);
+border-radius: 20%;
+}
+
+.box:hover{
+
+  background: rgb(24,255,248);
+background: linear-gradient(186deg, rgba(24,255,248,0.5329482134650736) 25%, rgba(161,250,244,0.8242647400757178) 50%, rgba(24,255,248,0.4937325271905637) 75%);
+ transform:  translateY(-20px);                       /****use to give 3d effect**/
+ box-shadow: 0 0 30px 0 rgba(0,0,0,.3);                /*this and above line*/
+}
+
+.box:hover p{
+  color: white;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -60px ! important;
+   
+
+}
+
+.carousel-indicators li{
+  background-color:#16c9f6!important;
+}
+
+
+.box a{
+
+  position: relative;
+}
+.box a img{
+width: 100px;
+height: 100px;
+
+
+margin-top: 20px
+
+}
+
+
+.box a:after{
+  content: "\f10d";             /*this is logo of (") which i used is that profile picture*/
+  font-family: FontAwesome;    /*u cant change the name fontasome is becouse we used above symbol*/
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+position: absolute;
+top: 120%;
+left: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box h1{
+  font-size: 18px;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+  animation: text 1s 1;
+
+}
+
+.box h2{
+  font-size: 13px;
+  font-size: 40px;
+  color: #666666;
+  margin-bottom: 20px; 
+}
+.box h5{
+  
+  font-size: 1.5rem;
+  color: #666666;
+  margin-bottom: 20px; 
+}
+
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+
+  }
+}
+
+
+/******************1st feedback - happy clint ****************/
+
+
+
+
+
+
+
+
+/*********profile whAT our clint say start*************/
+
+
+.testimonial-section{
+background-image:
+linear-gradient(rgba(0,10,10,.03), rgba(0,300,255,0.4))
+; background-repeat: no-repeat; background-size: 100%
+100%;  clip-path: polygon(0% 100%, 77% 100% , 100% 50% , 75% 0%, 0 0);
+padding: 20px 0px;
+
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.testimonial-section h1{
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.testimonial-pics{
+  padding: 40px 0;
+
+}
+
+.testimonial-pics img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  filter: grayscale(100%);
+  transition: .3s;
+  cursor: pointer;
+
+}
+
+.testimonial-pics img:hover,.testimonial-pics img.active
+{
+  transform:  translateY(-20px);
+ box-shadow: 0 0 30px 0 rgba(0,0,0,.3);
+}
+
+
+.testimonial-contents{
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonial{
+  display: none;
+}
+
+.testimonial.active{
+  display: block;
+}
+
+.testimonial p{
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+
+.testimonial .description{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+
+
+
+/*********profile whAT our clint say end*************/
+
+
+
+
+
+
+
+
+
+
+
+/*********flip 3d card start************/
+
+
+
+
+
+
+
+:root {
+  --level-one: translateZ(3rem);
+  --level-two: translateZ(6rem);
+  --level-three: translateZ(9rem);
+  
+  --fw-normal: 400;
+  --fw-bold: 700;
+  
+  --clr: #9aedea;
+}
+
+ *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+
+.flip{
+  width: auto;
+  height: auto;
+padding: 5px;
+   position: relative;
+}
+
+.flip:before{
+content: "";
+position: absolute;
+top: 0%;
+bottom: 0%;
+left:0% ;
+right:0% ;
+z-index: -1;
+ background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+
+   background:linear-gradient(160deg,   #82fffb 55% , #fff 0%  );
+
+
+}
+
+
+
+.card {
+  width: auto;
+}
+
+.card__content {
+  text-align: center;
+  position: relative;
+  padding: 180px 100px;
+  transition: transform 3s;
+  
+  transform-style: preserve-3d;
+}
+
+.card:hover .card__content {
+  transform: rotateY(.5turn);
+}
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5em 3em;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  display: grid;
+  align-content: center;
+}
+
+.card__front {
+  background-color: var(--clr);
+  background-image: url(../images/d.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #333;
+}
+
+.card__front::before {
+  content: '';
+  position: absolute;
+  --spacer: 1em;
+  top: var(--spacer);
+  bottom: var(--spacer);
+  left: var(--spacer);
+  right: var(--spacer);
+  border: 3px solid currentColor;
+  transform: var(--level-one);
+}
+
+.card__title {
+  font-size: 3.5rem;
+  transform: var(--level-three);
+  order: 2;
+  text-transform: uppercase;
+}
+
+.card__subtitle {
+  transform: var(--level-two);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: .75rem;
+  font-weight: var(--fw-bold);
+  opacity: .7;
+}
+
+.card__body {
+  transform: var(--level-two);
+  font-weight: var(fw-normal);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+
+
+.card__back {
+  transform: rotateY(.5turn);
+  color: var(--clr);
+  background: #333;
+}
+
+
+
+/*********flip 3d card ends************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************footer start************************/
+footer{
+background: linear-gradient(186deg, rgba(24,255,248,0.5329482134650736) 25%, rgba(161,250,244,0.8242647400757178) 50%, rgba(24,255,248,0.4937325271905637) 75%);
+}
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+
+
+
+
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+    #btn-search{
+      margin-top: 10px;
+    }
+  .search-head{
+    font-size: 2rem;
+  }
+
+  .search-header-section .search-note{
+    font-size: 1rem;
+    padding: 0.3rem 0 0.8rem 0;
+    color: gray;
+  }
+
+
+}
+
+@media screen and (max-width:360px){
+  
+#seach-section .center-div{
+  padding: 0 1.5rem;
+  
+}
+  .search-head{
+    font-size: 1.5rem;
+  }
+
+.search-header-section .search-note{
+    font-size: 0.8rem;
+    padding: 0.3rem 0 0.5rem 0;
+    color: gray;
+  }
+  #btn-search{
+      margin-top: 0.3rem;
+    }
+}
+
+
+/********************footer end*************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>   <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>   <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>   <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>
+     
+   
+    </ul>
+
+</nav>
+
+<section class="header-section">
+	<div class="current-div">
+		<h1 class="font-weight-bold">here we can write any thing</h1>
+		<p>we creat a new web</p>
+		<div class="header-buttons">
+			<a href="#"> AboutUs</a>
+					<a href="#"> contact</a>
+		
+	</section>
+</div>
+ </div>
+  </div>
+</div>
+
+
+
+</div> -->
