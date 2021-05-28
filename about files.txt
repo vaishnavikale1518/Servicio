@@ -1,0 +1,53 @@
+Admin client=
+		1)adminclientdb.php
+		2)adminclientdelete.php
+		3)adminclientfetch.php
+		4)adminclientfetch_single.php
+		5)adminclientindex.php
+		6)adminclientinsert.php
+		7)adminclientfunction.php
+
+Admin service=
+		1)serviceclientdb.php
+		2)serviceclientdelete.php
+		3)serviceclientfetch.php
+		4)serviceclientfetch_single.php
+		5)serviceclientindex.php
+		6)serviceclientinsert.php
+		7)serviceclientfunction.php
+
+client feedback form=
+		1)clientfeedbackdbcon.php
+		2)clientfeedbackform.php
+
+service feedback form=
+		1)servicefeedbackdbcon.php
+		2)servicefeedbackform.php
+
+client registration form=
+		1)clientregform.php
+		2)clientregformactive.php
+		3)clientregformdbcon.php
+
+service registration form=
+		1)serviceregform.php
+		2)serviceregformactive.php
+		3)serviceregformdbcon.php
+
+search page=
+		1)searchdbcon.php
+		2)searchpage.php
+		3)searchfetch_data.php
+
+client login page=
+		1)clientlogin.php
+
+service login page=
+		1)servicelogin.php
+
+admin login(client and service both)=
+		1)adminlogin.php
+
+
+
+
